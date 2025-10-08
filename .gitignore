@@ -1,2 +1,41 @@
 .venv/
 *code-workspace
+.vscode
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+# VS Code
+.vscode/
